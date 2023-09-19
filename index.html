@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="css/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
+        <!-- <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>FaceBookClone</title>
+    </head>
+    <body>
+        <header class="myNav">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <!-- =========left nav====== -->
+                    <div class="con col-lg-4 col-md-6 col-12 h-100">
+                        <div class="leftSide h-100">
+                            <a href="/" class="logo">
+                                <img
+                                    src="./images/Facebook_f_logo_(2019).svg.png"
+                                    alt="logo image" />
+                            </a>
+                            <input type="text" placeholder="Search">
+                        </div>
+                    </div>
+                    <!-- =========left nav====== -->
+                    <!-- =========middle nav====== -->
+
+                    <div class="con col-lg-4 col-md-7 col-12 h-100">
+                        <ul class="middleSide h-100">
+                            <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-flag"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-users"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-gamepad"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- =========middle nav====== -->
+                    <!-- =========right nav====== -->
+                    <div class="con col-lg-4 col-md-7 col-12">
+                        <ul class="rightSide">
+                            <li class="setting">
+                                <a href="#" id="grid"><i class="fa-solid fa-grip"
+                                        style="font-size: 30px;">
+                                    </i>
+                                </a>
+                                <div class="menu"
+                                style="border: var(--border-box);">
+                                        <div class="d-flex align-items-center 
+                                        justify-content-between mb-3">
+                                            <span style="color:var(--black-color)">Dark Theme</span>
+                                            <div class="theme">
+                                                <input type="checkbox" id="darkModeToggle">
+                                                <label for="darkModeToggle"></label>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center 
+                                        justify-content-between mb-3">
+                                            <span style="color:var(--black-color)">Hide Left Sidebar </span>
+                                            <div class="hideLeftSide">
+                                                <input type="checkbox" id="hideLeftSide">
+                                                <label for="hideLeftSide"></label>
+                                            </div>
+                                        </div>
+                                        <div class="hide-right d-flex align-items-center 
+                                        justify-content-between mb-3">
+                                            <span style="color:var(--black-color)">Hide Right Sidebar </span>
+                                            <div class="hideRightSide">
+                                                <input type="checkbox" id="hideRightSide">
+                                                <label for="hideRightSide"></label>
+                                            </div>
+                                        </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                            <li>
+                                <a href="#"><i
+                                        class="fa-brands fa-facebook-messenger"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/profile-11.jpg"
+                                        style="width: 45px;height: 45px;border-radius: 50%;"
+                                        alt>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- =========right nav====== -->
+
+                </div>
+            </div>
+        </header>
+        <!-- ======================main============== -->
+        <main>
+            <div class="container">
+                <div class="row">
+                    <!-- >>>>>>>>>left Side>>>>>>> -->
+                    <div class="col-lg-3 col-12">
+                        <div class="lSide">
+                            <div class="features mb-3"
+                                style="border:var(--border-box);padding: 15px;border-radius: 6px;">
+                                <div class="img d-flex align-items-center mb-4">
+                                    <img src="./images/profile-11.jpg"
+                                        style="width:50px;height: 50px;border-radius: 50%;"
+                                        alt>
+                                    <span
+                                        style="font-size: 20px; margin-left:20px;
+                                        color:var(--black-color)">Ahmed
+                                        Mo</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#">
+                                            <i class="fa-regular fa-circle-user"></i>
+                                            <span>Friends</span>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fa-solid fa-font-awesome"></i>
+                                            <span>Events</span>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i
+                                                class="fa-solid fa-graduation-cap"></i>
+                                            <span>Group</span>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fa-regular fa-credit-card"></i>
+                                            <span>Marketplace</span>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fa-solid fa-display"></i>
+                                            <span>Watch</span>
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <div class="shortcuts"
+                                style="border:var(--border-box);padding: 15px;border-radius: 6px;">
+                                <h5 class="mb-3" style="color:var(--black-color)">Your Shortcuts</h5>
+                                <ul>
+                                    <li>
+                                        <img src="./images/story-1.jpg" />
+                                        <span>Web Design</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/gallery05.jpg" />
+                                        <span>Graphic Design</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/graphic4-1.jpg" />
+                                        <span>FrontEnd</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/gallery01.jpg" />
+                                        <span>Backend</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- >>>>>>>>>left Side>>>>>>> -->
+
+                    <!-- >>>>>>>>>middle Side>>>>>>> -->
+                    <div class="col-lg-6 col-12">
+                        <div class="mSide">
+                            <div class="p-4">
+                                <div class="storyHead">
+                                    <div>
+                                        <i class="fa-solid fa-headphones"
+                                        style="color:var(--black-color)"></i>
+                                        <span style="color:var(--black-color)">Stories</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-video"
+                                        style="color:var(--black-color)"></i>
+                                        <span style="color:var(--black-color)">Videos</span>
+                                    </div>
+                                </div>
+                                <!-- Slider main container -->
+                                <div class="swiper card-slider mt-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide swip-one">
+                                            <img src="./images/gallery-img-08.jpg" alt="">
+                                            <span style="color:var(--black-color)">Create A Story
+                                                <i class="fa-solid fa-plus"></i>
+                                            </span>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./images/profile-11.jpg" alt="">
+                                            <img src="./images/avatar-02.png"
+                                                class="smallImg" alt="">
+                                            <span class="name">Ahmed Elabrass</span>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./images/feed-6.jpg" alt="">
+                                            <img src="./images/avatar-03.png"
+                                                class="smallImg" alt="">
+                                            <span class="name">Ahmed Emad</span>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <img src="./images/feed-3.jpg" alt="">
+                                            <img src="./images/avatar-04.png"
+                                                class="smallImg" alt="">
+                                            <span class="name">Ashraf Ali</span>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./images/feed-7.jpg" alt="">
+                                            <img src="./images/avatar-05.png"
+                                                class="smallImg" alt="">
+                                            <span class="name">Ali saad</span>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./images/gallery04.jpg" alt="">
+                                            <img src="./images/avatar-06.png"
+                                                class="smallImg" alt="">
+                                            <span class="name">Mohamed Emad</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                                <!-- Slider main container -->
+                            </div>
+                            <div class="search">
+                                <div
+                                    class="d-flex align-items-center justify-content-between pb-3"
+                                    style="border-bottom:var(--border-box);">
+                                    <img src="./images/avatar-03.png"
+                                        style="width:70px;height:70px;border-radius: 50%;"
+                                        alt>
+                                    <input type="text"
+                                        placeholder="What is your mind ?"
+                                        style="width:80%;padding:6px 15px;border-radius: 10px;outline: none;
+                                     border:var(--border-box)">
+                                </div>
+                                <ul class="feat mt-2">
+                                    <li>
+                                        <i class="fas fa-video"
+                                            style="color:red;font-size: 20px;"></i>
+                                        <span>Live Video</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-camera"
+                                            style="color:blue;font-size: 20px;"></i>
+                                        <span>Photo / Video</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-regular fa-face-smile"
+                                            style="color:rgba(47, 255, 95, 0.991);font-size: 20px;"></i>
+                                        <span>Felling Active</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pages p-3 mb-3">
+                                <div class="head mb-3">
+                                    <div class="left">
+                                        <img src="./images/profile-15.jpg" alt>
+                                        <div class="details">
+                                            <span class="name">Ashraf Flo</span>
+                                            <span class="date">5 Marsh</span>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <i class="fa-solid fa-bars" style="color:var(--black-color)"></i>
+                                    </div>
+                                </div>
+                                <div class="theImg">
+                                    <h6>This Is Amazing!!</h6>
+                                    <img src="./images/feed-5.jpg" class="w-100">
+                                    <ul class="details mb-3">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <span>Like</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-comment"></i>
+                                                <span>Comment</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Share</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div
+                                    class="d-flex align-items-center justify-content-between pt-3"
+                                    style="border-top: 1px solid #ddd;">
+                                    <img src="./images/avatar-03.png"
+                                        style="width:50px;height:50px;border-radius: 50%;"
+                                        alt>
+                                    <input type="text"
+                                        placeholder="What is your mind ?"
+                                        style="width:80%;padding:6px 15px;border-radius: 10px;outline: none;
+                                 border:2px solid #cfcfcf">
+                                </div>
+                            </div>
+                            <div class="pages p-3 mb-3">
+                                <div class="head mb-3">
+                                    <div class="left">
+                                        <img src="./images/profile-1.jpg" alt>
+                                        <div class="details">
+                                            <span class="name">Mona Flo</span>
+                                            <span class="date">5 Marsh</span>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <i class="fa-solid fa-bars"
+                                        style="color:var(--black-color)"></i>
+                                    </div>
+                                </div>
+                                <div class="theImg">
+                                    <h6>This Is Amazing!!</h6>
+                                    <img src="./images/gallery-03.jpg"
+                                        class="w-100">
+                                    <ul class="details mb-3">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <span>Like</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-comment"></i>
+                                                <span>Comment</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Share</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div
+                                    class="d-flex align-items-center justify-content-between pt-3"
+                                    style="border-top: 1px solid #ddd;">
+                                    <img src="./images/avatar-03.png"
+                                        style="width:50px;height:50px;border-radius: 50%;"
+                                        alt>
+                                    <input type="text"
+                                        placeholder="What is your mind ?"
+                                        style="width:80%;padding:6px 15px;border-radius: 10px;outline: none;
+                                 border:2px solid #cfcfcf">
+                                </div>
+                            </div>
+                            <div class="pages p-3 mb-3">
+                                <div class="head mb-3">
+                                    <div class="left">
+                                        <img src="./images/profile-18.jpg" alt>
+                                        <div class="details">
+                                            <span class="name">Mohamed Allo</span>
+                                            <span class="date">8 Marsh</span>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <i class="fa-solid fa-bars"
+                                        style="color:var(--black-color)"></i>
+                                    </div>
+                                </div>
+                                <div class="theImg">
+                                    <h6>Good Morning!!</h6>
+                                    <img src="./images/feed-6.jpg" class="w-100">
+                                    <ul class="details mb-3">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <span>Like</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-comment"></i>
+                                                <span>Comment</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Share</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div
+                                    class="d-flex align-items-center justify-content-between pt-3"
+                                    style="border-top: 1px solid #ddd;">
+                                    <img src="./images/avatar-03.png"
+                                        style="width:50px;height:50px;border-radius: 50%;"
+                                        alt>
+                                    <input type="text"
+                                        placeholder="What is your mind ?"
+                                        style="width:80%;padding:6px 15px;border-radius: 10px;outline: none;
+                                 border:2px solid #cfcfcf">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- >>>>>>>>>middle Side>>>>>>> -->
+                    
+                    <!-- >>>>>>>>>right Side>>>>>>> -->
+                    <div class="col-lg-3 col-12">
+                        <div class="rSide">
+                            <div class="yourPages">
+                                <h5 class="mb-3" style="color:var(--black-color)">Your Pages</h5>
+                                <ul>
+                                    <li>
+                                        <img src="./images/mbr.jpeg" />
+                                        <span>Web Design</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/gallery05.jpg" />
+                                        <span>Graphic Design</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/gallery01.jpg" />
+                                        <span>Backend</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cadu">
+                                <i class="fa-solid fa-gift"></i>
+                                <span>MyGames</span>
+                            </div>
+                            <div class="names">
+                                <ul>
+                                    <li>
+                                        <img src="./images/profile-18.jpg" alt>
+                                        <span>Ahmed Mo</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/profile-15.jpg" alt>
+                                        <span>Ashraf Flo</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/profile-11.jpg" alt>
+                                        <span>Motaz Elgendy</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/profile-8.jpg" alt>
+                                        <span>Yasser Abo</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/profile-9.jpg" alt>
+                                        <span>Emad Ela</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- >>>>>>>>>right Side>>>>>>> -->
+
+                </div>
+            </div>
+        </main>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/all.min.js"></script>
+        <script src="js/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
+        <!-- <script
+            src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
