@@ -17,14 +17,13 @@ body {
 :root {
   --black-color: black;
   --bg-color: #fff;
-  --border-box: 3px solid #e7e4e4;
+  --border-box: 1px solid #e7e4e4bb;
 }
 
 :root.active {
   --bg-color: #000917;
   --black-color: white;
-  --border-box: 3px solid rgb(255 255 255 / 10%);
-
+  --border-box: 1px solid rgb(255 255 255 / 10%);
 }
 
 /* ==========================Header============== */
@@ -76,7 +75,7 @@ header .middleSide {
 }
 
 header .middleSide li a {
-  color: #c3c2c2ed;
+  color: #0e2645bd;
   font-size: 25px;
 }
 
@@ -97,7 +96,7 @@ header .middleSide li {
 }
 
 header .middleSide li:first-child {
-  border-bottom: var(--border-box);
+  border-bottom: 1px solid #0e2645bd;
   border-radius: 5px;
 }
 
@@ -136,7 +135,9 @@ main {
   padding: 30px 0px;
 }
 
-main .lSide, main .rSide, main .mSide {
+main .lSide,
+main .rSide,
+main .mSide {
   transform: scale(1);
   transition: all 0.5s ease;
 }
@@ -187,8 +188,8 @@ main .rSide .yourPages ul li span {
   text-transform: capitalize;
 }
 
-main .rSide>div,
-main .mSide>div {
+main .rSide > div,
+main .mSide > div {
   border: var(--border-box);
   padding: 15px;
   border-radius: 6px;
@@ -313,8 +314,8 @@ main .mSide .pages .foot input {
   padding: 6px 15px;
   border-radius: 10px;
   outline: none;
-  border:var(--border-box);
-  color:var(--black-color);
+  border: var(--border-box);
+  color: var(--black-color);
   background-color: var(--bg-color);
 }
 
@@ -326,17 +327,17 @@ main .mSide .pages .foot input {
   justify-content: space-around;
 }
 
-.storyHead>div {
+.storyHead > div {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
 }
 
-.storyHead>div span {
+.storyHead > div span {
   margin-left: 10px;
 }
 
-.storyHead>div:first-child {
+.storyHead > div:first-child {
   border-bottom: 3px solid orange;
 }
 
@@ -506,7 +507,6 @@ header .rightSide .setting .menu div label {
   box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.5) inset 0 -5px 15px rgba(255, 255, 255, 0.5);
   cursor: pointer;
   transition: all 0.3s ease;
-
 }
 
 header .rightSide .setting .menu div label::after {
@@ -527,18 +527,16 @@ header .rightSide .setting .menu div input {
   visibility: hidden;
 }
 
-header .rightSide .setting .menu div input:checked+label {
+header .rightSide .setting .menu div input:checked + label {
   background-color: #242424;
 }
 
-header .rightSide .setting .menu div input:checked+label::after {
+header .rightSide .setting .menu div input:checked + label::after {
   left: 40px;
   background: linear-gradient(180deg, #777, #3a3a3a);
-
-
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .rightSide .menu .hide-right {
     display: none !important;
   }
